@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: cursive;
+}
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 400px);
+  justify-content: center;
+}
+.heros,
+.villians {
+  display: grid;
+  grid-template-columns: repeat(2, 130px);
+  grid-template-rows: repeat(5, 130px);
+  grid-gap: 8em;
+}
+.hero,
+.villian {
+  height: 220px;
+  width: 150px;
+  border: 8px rgb(226, 217, 217) solid;
+  border-radius: 7px;
+}
+.text {
+  text-align: center;
+  font-size: 100px;
+  margin-right: 20px;
+}
+.footer {
+  margin-left: 80px;
+  margin-top: 80px;
+  font-size: 18px;
+}
+p {
+  text-align: center;
+}
+h1 {
+  position: relative;
+  text-align: center;
+  top: 0px;
+}
+
+#pics {
+  margin-left: 10px;
+}
